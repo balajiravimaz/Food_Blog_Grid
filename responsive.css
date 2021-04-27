@@ -12,7 +12,7 @@
       font-size: 2rem;
     }
   }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   body {
     overflow-x: hidden;
   }
@@ -104,4 +104,6 @@
   .news {
     display: none;
   }
+  
 }
+
