@@ -1,0 +1,107 @@
+/* Header */
+
+/* Foods */
+/* Foods */
+@media (max-width: 400px) {
+  .logo {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+    .logo {
+      font-size: 2rem;
+    }
+  }
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    grid-template-columns: 1fr;
+  }
+  .social {
+    justify-self: center;
+  }
+  .links {
+    text-align: center;
+  }
+  .links ul {
+    display: block;
+  }
+  .links ul li a {
+    margin-left: 0;
+  }
+  .sub {
+    display: none;
+  }
+
+  /* Cover */
+  .cover {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px auto auto 300px;
+  }
+  .feature {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cover .feature:nth-child(1) {
+    grid-column: 1/-1;
+    grid-row: unset;
+  }
+  .cover .feature:nth-child(4) {
+    grid-column: 1/-1;
+    grid-row: unset;
+  }
+  .cover .content {
+    height: auto;
+  }
+  .cover .feat-tit {
+    font-size: 1rem;
+  }
+  .small1 {
+    font-size: unset !important;
+  }
+
+  /* about */
+  .about-us {
+    grid-template-columns: 1fr;
+  }
+  .about-us .abt-img,
+  .about-us .abt-img1,
+  .about-us .abt-img2,
+  .about-us .abt-img3,
+  .about-us .abt-img4,
+  .about-us .abt-img5,
+  .about-us .abt-img6,
+  .about-us .abt-img7 {
+    grid-column: unset;
+    grid-row: unset;
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+  .mb-res {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .about-us .abt-img1 {
+    height: unset;
+  }
+  .foods {
+    grid-template-columns: 1fr;
+  }
+  .food {
+    margin: 0 2em 7em;
+  }
+  .food:last-child {
+    margin-bottom: 0;
+  }
+
+  /* News */
+  .feat-post {
+    grid-row: unset;
+  }
+
+  .news {
+    display: none;
+  }
+}
